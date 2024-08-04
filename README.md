@@ -2,7 +2,7 @@
 ## Overview
 SpoofDPI is a specialized proxy server designed to bypass Deep Packet Inspection (DPI) mechanisms, enabling users to access restricted content. This project is packaged as a Docker container for easy deployment and use.
 ## Source and Binary
-The SpoofDPI proxy server is based on the [project SpoofDPI](https://github.com/xvzc/SpoofDPI) (thanks, [xvzc](https://github.com/xvzc). The Docker image uses install script provided by this project.
+The SpoofDPI proxy server is based on the [project SpoofDPI](https://github.com/xvzc/SpoofDPI) (thanks, [xvzc](https://github.com/xvzc)). The Docker image uses install script provided by this project.
 ## Features
 - **DPI Bypass**: Implements techniques to evade detection by DPI systems.
 - **Dockerized**: Easily deployable in a Docker environment.
