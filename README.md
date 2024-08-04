@@ -57,7 +57,7 @@ services:
     container_name: spoof-dpi
     restart: unless-stopped
     ports:
-      - "8080:8080"
+      - "8080:8080" #change this if you need
 ```
 **For arm64** architecture, run the Docker container using the following `docker-compose.yml`:
 ```yml
@@ -67,7 +67,7 @@ services:
     container_name: spoof-dpi-raspi
     restart: unless-stopped
     ports:
-      - "8080:8080"
+      - "8080:8080" # change this if you need
 ```
 *Note: The Arm64 version has been tested only on Raspberry Pi.*
 ## Usage
