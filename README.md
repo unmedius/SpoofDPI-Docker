@@ -29,7 +29,7 @@ docker pull ghcr.io/unmedius/spoof-dpi:latest
 ```
 **For arm64** architecture:
 ```bash
-docker pull ghcr.io/unmedius/spoof-dpi-rasp:latest
+docker pull ghcr.io/unmedius/spoof-dpi-raspi:latest
 ```
 *Note: The Arm64 version has been tested only on Raspberry Pi.*
 
@@ -43,7 +43,7 @@ docker run -d --name spoof-dpi -p 8080:8080 ghcr.io/unmedius/spoof-dpi:latest
 ```
 **For arm64** architecture, run the Docker container using the following command:
 ```bash
-docker run -d --name spoof-dpi -p 8080:8080 ghcr.io/unmedius/spoof-dpi-rasp:latest
+docker run -d --name spoof-dpi -p 8080:8080 ghcr.io/unmedius/spoof-dpi-raspi:latest
 ```
 *Note: The Arm64 version has been tested only on Raspberry Pi.*
 
@@ -54,7 +54,7 @@ You can use Docker Docker-Compose for this too:
 services:
   spoof-dpi:
     image: ghcr.io/unmedius/spoof-dpi:latest
-    container_name: spoof-dpi-raspi
+    container_name: spoof-dpi
     restart: unless-stopped
     ports:
       - "8080:8080"
