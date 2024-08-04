@@ -35,7 +35,7 @@ docker pull ghcr.io/unmedius/spoof-dpi-raspi:latest
 
 ## Running the Container
 
-You can change port for your system changing first port number after -p 
+You can change port for your system changing first port number after `-p` 
 
 **For x64** architecture, run the Docker container using the following command:
 ```bash
@@ -57,7 +57,7 @@ services:
     container_name: spoof-dpi
     restart: unless-stopped
     ports:
-      - "8080:8080" #change this if you need
+      - "8080:8080" # change this if you need it
 ```
 **For arm64** architecture, run the Docker container using the following `docker-compose.yml`:
 ```yml
@@ -67,7 +67,7 @@ services:
     container_name: spoof-dpi-raspi
     restart: unless-stopped
     ports:
-      - "8080:8080" # change this if you need
+      - "8080:8080" # change this if you need it
 ```
 *Note: The Arm64 version has been tested only on Raspberry Pi.*
 ## Usage
