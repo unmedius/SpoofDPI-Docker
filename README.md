@@ -71,4 +71,6 @@ services:
 ```
 *Note: The Arm64 version has been tested only on Raspberry Pi.*
 ## Usage
-To use the proxy server, configure your web browser or application to connect through the proxy at http://localhost:5000.
+To use the proxy server, configure your web browser or application to connect through the proxy at `http://<ip-of-your-server>:<port>`.
+If you want to use in on your local machine, use `http://127.0.0.1:<port>` for connection
+
