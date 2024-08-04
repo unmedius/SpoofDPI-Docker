@@ -49,7 +49,7 @@ docker run -d --name spoof-dpi -p 8080:8080 ghcr.io/unmedius/spoof-dpi-rasp:late
 
 ## Docker-Compose
 You can use Docker Docker-Compose for this too:
-*For x64* architecture, run the Docker container using the following 'docker-compose.yml':
+*For x64* architecture, run the Docker container using the following `docker-compose.yml`:
 ```yml
 services:
   spoof-dpi:
@@ -60,7 +60,7 @@ services:
       - "5000:8080"
 ```
 *For arm64* architecture, run the Docker container using the following `docker-compose.yml`:
-```
+```yml
 services:
   spoof-dpi:
     image: ghcr.io/unmedius/spoof-dpi-raspi:latest
