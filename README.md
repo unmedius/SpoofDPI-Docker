@@ -43,7 +43,7 @@ docker run -d --name spoof-dpi -p 8080:8080 ghcr.io/unmedius/spoof-dpi:latest
 ```
 **For arm64** architecture, run the Docker container using the following command:
 ```bash
-docker run -d --name spoof-dpi -p 8080:8080 ghcr.io/unmedius/spoof-dpi-raspi:latest
+docker run -d --name spoof-dpi-raspi -p 8080:8080 ghcr.io/unmedius/spoof-dpi-raspi:latest
 ```
 *Note: The Arm64 version has been tested only on Raspberry Pi.*
 
